@@ -13,7 +13,7 @@ export default function CountdownTimer() {
     const updateCountdown = () => {
       const startDate = new Date('2021-09-18'); // Approximate start date
       const nowUTC = new Date();
-      const now = new Date(nowUTC/getTime() + 7 * 60 * 60 * 1000);
+      const now = new Date(nowUTC.getTime() + 7 * 60 * 60 * 1000);
       
       const timeDiff = now.getTime() - startDate.getTime();
       
