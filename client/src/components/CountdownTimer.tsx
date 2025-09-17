@@ -47,7 +47,7 @@ export default function CountdownTimer() {
           viewport={{ once: true }}
           data-testid="countdown-title"
         >
-          Time Together
+          Waktu Kita Bersama Sama
         </motion.h2>
         
         <motion.p 
@@ -57,7 +57,7 @@ export default function CountdownTimer() {
           transition={{ delay: 0.3 }}
           viewport={{ once: true }}
         >
-          Every moment with you is precious
+          Dari hari pertama sampe sekarang, ngga pernah sekali pun aku ngerasa ada hari yang buruk
         </motion.p>
         
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
@@ -86,7 +86,7 @@ export default function CountdownTimer() {
           viewport={{ once: true }}
         >
           <p className="text-xl italic font-serif" data-testid="countdown-quote">
-            "And still counting... Here's to forever! 💖"
+            "Dan akan terus berhitung selama lama lama lama lamanya 💖"
           </p>
         </motion.div>
       </div>

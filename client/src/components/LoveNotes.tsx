@@ -5,7 +5,7 @@ const loveNotes = [
   {
     icon: "fas fa-heart",
     buttonText: "Klik sini syanggg",
-    message: "Makasii ya syang kamu udah mau temenan dan nemenin aku dari kecil sampe sekarang, aku bersukur banget bisa bareng sama kamu dari dulu sampe sekarang sampe nanti aku bersukur banget aku seneng banget. Pokoknya ituu syang makasii ya kamu udah merelakan segala galanya buat aku, aku janji sama kamu aku bakal lakuin yang terbaik buat kamu dan buat kehidupane kita kedepan syangg 💕",
+    message: "Makasii ya syang kamu udah mau temenan dan nemenin aku dari kecil sampe sekarang, aku bersukur banget bisa bareng sama kamu dari dulu sampe sekarang sampe nanti aku bersukur banget aku seneng banget. Aku janji sama kamu aku bakal lakuin yang terbaik buat kamu dan buat kehidupane kita kedepan syangg 💕",
     gradient: "from-primary to-secondary"
   },
   {
