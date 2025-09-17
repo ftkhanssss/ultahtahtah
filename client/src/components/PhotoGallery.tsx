@@ -1,34 +1,40 @@
 import { motion } from "framer-motion";
+import gbr1 from "@/gbr/gbr1.jpg";
+import gbr2 from "@/gbr/gbr2.jpg";
+import gbr3 from "@/gbr/gbr3.jpg";
+import gbr4 from "@/gbr/gbr4.jpg";
+import gbr5 from "@/gbr/gbr5.jpg";
+import gbr6 from "@/gbr/gbr6.jpg";
 
 const photos = [
   {
-    src: ,
-    alt: "Romantic dinner date",
+    src: gbr1,
+    alt: "Our sweet memories together",
     caption: "Our First Date 💕"
   },
   {
-    src: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-    alt: "Beach sunset together", 
+    src: gbr2,
+    alt: "Happy moments with hearts", 
     caption: "Beach Getaway 🌅"
   },
   {
-    src: "https://images.unsplash.com/photo-1518611012118-696072aa579a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-    alt: "Anniversary celebration",
+    src: gbr3,
+    alt: "Cozy times together",
     caption: "Anniversary Night ✨"
   },
   {
-    src: "https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-    alt: "Mountain hiking adventure",
+    src: gbr4,
+    alt: "Special graduation moment",
     caption: "Adventure Together 🏔️"
   },
   {
-    src: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-    alt: "Spring picnic date",
+    src: gbr5,
+    alt: "Fun with playful masks",
     caption: "Spring Picnic 🌸"
   },
   {
-    src: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-    alt: "Coffee shop date",
+    src: gbr6,
+    alt: "Cute eggplant costume fun",
     caption: "Coffee & Conversations ☕"
   }
 ];
