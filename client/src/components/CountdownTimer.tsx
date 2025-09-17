@@ -15,12 +15,19 @@ export default function CountdownTimer() {
       const nowUTC = new Date();
       const now = new Date(nowUTC.getTime() + 7 * 60 * 60 * 1000);
       
-      const timeDiff = now.getTime() - startDate.getTime();
-      
-      const years = Math.floor(timeDiff / (1000 * 60 * 60 * 24 * 365.25));
-      const months = Math.floor(timeDiff / (1000 * 60 * 60 * 24 * 30.44));
-      const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
-      const hours = Math.floor(timeDiff / (1000 * 60 * 60));
+      // selisih waktu dalam ms
+  const timeDiff = now.getTime() - startDate.getTime();
+
+  // hitung tahun
+  const years = now.getFullYear() - startDate.getFullYear();
+
+  // hitung bulan lebih akurat
+  const startMonth = startDate.getFullYear() * 12 + startDate.getMonth();
+  const nowMonth = now.getFullYear() * 12 + now.getMonth();
+  const months = nowMonth - startMonth;
+
+  const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+  const hours = Math.floor(timeDiff / (1000 * 60 * 60));
       
       setTimeData({ years, months, days, hours });
     };
