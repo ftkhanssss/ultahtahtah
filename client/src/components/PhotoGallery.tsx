@@ -1,40 +1,41 @@
 import { motion } from "framer-motion";
-import gbr1 from "@/gbr/gbr1.jpg";
-import gbr2 from "@/gbr/gbr2.jpg";
-import gbr3 from "@/gbr/gbr3.jpg";
-import gbr4 from "@/gbr/gbr4.jpg";
-import gbr5 from "@/gbr/gbr5.jpg";
-import gbr6 from "@/gbr/gbr6.jpg";
+import gbr1 from "../gbr/gbr1.jpg";
+import gbr2 from "../gbr/gbr2.jpg";
+import gbr3 from "../gbr/gbr3.jpg";
+import gbr4 from "../gbr/gbr4.jpg";
+import gbr5 from "../gbr/gbr5.jpg";
+import gbr6 from "../gbr/gbr6.jpg";
+
 
 const photos = [
   {
     src: gbr1,
-    alt: "Our sweet memories together",
+    alt: "Romantic dinner date",
     caption: "Our First Date 💕"
   },
   {
     src: gbr2,
-    alt: "Happy moments with hearts", 
+    alt: "Beach sunset together", 
     caption: "Beach Getaway 🌅"
   },
   {
     src: gbr3,
-    alt: "Cozy times together",
+    alt: "Anniversary celebration",
     caption: "Anniversary Night ✨"
   },
   {
     src: gbr4,
-    alt: "Special graduation moment",
+    alt: "Mountain hiking adventure",
     caption: "Adventure Together 🏔️"
   },
   {
     src: gbr5,
-    alt: "Fun with playful masks",
+    alt: "Spring picnic date",
     caption: "Spring Picnic 🌸"
   },
   {
     src: gbr6,
-    alt: "Cute eggplant costume fun",
+    alt: "Coffee shop date",
     caption: "Coffee & Conversations ☕"
   }
 ];
