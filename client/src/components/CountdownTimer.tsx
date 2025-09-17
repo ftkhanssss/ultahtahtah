@@ -11,10 +11,10 @@ export default function CountdownTimer() {
 
   useEffect(() => {
     const updateCountdown = () => {
-      const startDate = new Date('2021-09-18T07:00:00'); // Approximate start date
-      const now = new Date(
-        new Date().toLocaleString("en-US", { timeZone:"Asia/Jakarta" })
-      );
+      const startDate = new Date('2021-09-18'); // Approximate start date
+      const nowUTC = new Date();
+      const now = new Date(nowUTC/getTime() + 7 * 60 * 60 * 1000);
+      
       const timeDiff = now.getTime() - startDate.getTime();
       
       const years = Math.floor(timeDiff / (1000 * 60 * 60 * 24 * 365.25));
