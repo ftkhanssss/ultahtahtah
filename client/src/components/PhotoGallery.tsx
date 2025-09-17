@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const photos = [
   {
-    src: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+    src: ,
     alt: "Romantic dinner date",
     caption: "Our First Date 💕"
   },
