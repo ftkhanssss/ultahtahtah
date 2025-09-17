@@ -135,7 +135,7 @@ export default function BirthdayCake() {
           
           <div className="mt-8">
             <p className="text-sm text-muted-foreground mb-4" data-testid="candle-count">
-              Candles lit: {totalLit}/4
+              Jumlah api menyala: {totalLit}/4
             </p>
             {allLit && (
               <motion.div
