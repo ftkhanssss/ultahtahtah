@@ -2,30 +2,30 @@ import { motion } from "framer-motion";
 
 const timelineItems = [
   {
-    year: "2021",
-    title: "First Meeting ✨",
-    description: "The day our hearts found each other and everything changed forever",
+    year: "2021-2022",
+    title: "Tahun Ke-1 ✨",
+    description: "Pertama kali kita bersama-sama jalanin hubungan ini, yang awalnya kerasa lumayan susah",
     side: "left",
     color: "accent"
   },
   {
-    year: "2022", 
-    title: "First Anniversary 💕",
-    description: "One year of laughter, adventures, and falling deeper in love",
+    year: "2022-2023", 
+    title: "Tahun Ke-2 💕",
+    description: "Kita udah mulai tau satu sama lain, hubungan kita juga udah kerasa terarah",
     side: "right",
     color: "secondary"
   },
   {
-    year: "2023",
-    title: "Growing Together 🌱", 
-    description: "Building dreams, making memories, and supporting each other's growth",
+    year: "2023-2024",
+    title: "Tahun Ke-3 🌱", 
+    description: "Kita punya mimpi bersama-sama, udah buat banyak kenangan, semangatin satu sama lain dan tumbuh bersama",
     side: "left",
     color: "accent"
   },
   {
-    year: "2024",
-    title: "Here & Now 🎂",
-    description: "Celebrating 22 years of life and 4 beautiful years together", 
+    year: "2024-2025",
+    title: "Sekarang 🎂",
+    description: "Walaupun kamu sukanya marah marah kaya gitu, tapi akhirnya kita bisa sampe ke titik sekarang. Aku seneng banget dan aku sangat sangat bersyukur bisa tumbuh berkembang sama kamu", 
     side: "right",
     color: "secondary"
   }

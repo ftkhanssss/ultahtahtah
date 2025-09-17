@@ -27,7 +27,7 @@ export default function HeroSection() {
               animate={{ scale: 1 }}
               transition={{ delay: 0.5, type: "spring", stiffness: 260, damping: 20 }}
             >
-              🎉 Piiiii 22 sayanggg! 🎂
+              🎉 Piiiii Umur 22 Kita Bersama Sayanggg! 🎂
             </motion.span>
             <motion.span 
               className="block mt-4 text-3xl md:text-5xl animate-pulse-heart"
@@ -35,7 +35,7 @@ export default function HeroSection() {
               animate={{ scale: 1 }}
               transition={{ delay: 0.8, type: "spring", stiffness: 260, damping: 20 }}
             >
-              💕 4 Years Together 💕
+              💕 Piii Enip Yang Ke 4 💕
             </motion.span>
           </motion.h1>
           <motion.p 
@@ -45,7 +45,7 @@ export default function HeroSection() {
             transition={{ delay: 1.2 }}
             data-testid="hero-subtitle"
           >
-            Celebrating our love, our growth, and our beautiful journey together
+            Ini adalah pekerjaan tahunan aku sayang, bikin website karena kamu comel 💕
           </motion.p>
           <motion.div 
             className="flex flex-col sm:flex-row gap-4 justify-center"
@@ -58,14 +58,14 @@ export default function HeroSection() {
               className="bg-white text-primary px-8 py-3 rounded-full font-semibold hover:bg-opacity-90 transition-all transform hover:scale-105"
               data-testid="button-love-story"
             >
-              Our Love Story
+              Perjalanan Kita Sama Sama
             </button>
             <button 
               onClick={() => scrollToSection('celebration')}
               className="bg-accent text-accent-foreground px-8 py-3 rounded-full font-semibold hover:bg-opacity-90 transition-all transform hover:scale-105"
               data-testid="button-light-candles"
             >
-              Light the Candles
+              Hidupkan lilin sayang
             </button>
           </motion.div>
         </motion.div>
