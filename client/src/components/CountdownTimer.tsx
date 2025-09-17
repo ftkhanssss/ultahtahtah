@@ -11,7 +11,7 @@ export default function CountdownTimer() {
 
   useEffect(() => {
     const updateCountdown = () => {
-      const startDate = new Date('2021-09-18'); // Approximate start date
+      const startDate = new Date('2021-09-18T07:00:00'); // Approximate start date
       const now = new Date();
       const timeDiff = now.getTime() - startDate.getTime();
       
