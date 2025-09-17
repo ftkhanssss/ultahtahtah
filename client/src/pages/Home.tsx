@@ -1,4 +1,3 @@
-import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
 import Timeline from "@/components/Timeline";
 import PhotoGallery from "@/components/PhotoGallery";
@@ -12,7 +11,6 @@ export default function Home() {
   return (
     <div className="bg-background text-foreground overflow-x-hidden">
       <FloatingHearts />
-      <Navigation />
       <HeroSection />
       <Timeline />
       <PhotoGallery />
