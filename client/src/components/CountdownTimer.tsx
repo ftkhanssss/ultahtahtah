@@ -24,7 +24,7 @@ export default function CountdownTimer() {
       const minutes = Math.floor(timeDiff / (1000 * 60));
       const seconds = Math.floor(timeDiff / 1000);
       
-      setTimeData({ years, months, days, hours, minutes, seconds });
+      setTimeData({ years, months, days, hours });
     };
 
     updateCountdown();
