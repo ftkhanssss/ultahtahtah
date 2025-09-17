@@ -4,20 +4,20 @@ import { useState } from "react";
 const loveNotes = [
   {
     icon: "fas fa-heart",
-    buttonText: "Click for a sweet message",
-    message: "You make every day feel like a celebration. Thank you for 4 amazing years! 💕",
+    buttonText: "Klik sini syanggg",
+    message: "Makasii ya syang kamu udah mau temenan dan nemenin aku dari kecil sampe sekarang, aku bersukur banget bisa bareng sama kamu dari dulu sampe sekarang sampe nanti aku bersukur banget aku seneng banget. Pokoknya ituu syang makasii ya kamu udah merelakan segala galanya buat aku, aku janji sama kamu aku bakal lakuin yang terbaik buat kamu dan buat kehidupane kita kedepan syangg 💕",
     gradient: "from-primary to-secondary"
   },
   {
     icon: "fas fa-star", 
-    buttonText: "Another sweet surprise",
-    message: "Growing older with you is the greatest adventure. Here's to many more birthdays together! 🎂",
+    buttonText: "Klik ini juga",
+    message: "Piii ulang tahun ke 22 dan aniverseri yang ke 4 ya syangg, semoga kehidupane kita kedepannya lebih dipermudah lagi syang dan kita bisa cepet cepet dapet apa yang kita butuhkan dan kita mau syanggg, Aamiin 🎂",
     gradient: "from-accent to-primary"
   },
   {
     icon: "fas fa-gift",
-    buttonText: "One more message", 
-    message: "From 18 to 22, from strangers to soulmates. You're my favorite everything! ✨",
+    buttonText: "Ini juga klik", 
+    message: "Dari 18 sampe 22, dari SMA sampai selama lama lamanya. Kamu segala gala gala galanya buat aku syangg tapi kadonya natii ya menyusul hwewehwhewhwe! ✨",
     gradient: "from-secondary to-accent"
   }
 ];
@@ -51,7 +51,7 @@ export default function LoveNotes() {
           viewport={{ once: true }}
           data-testid="love-notes-title"
         >
-          Love Notes
+          Sedikit Kata-Kata
         </motion.h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">

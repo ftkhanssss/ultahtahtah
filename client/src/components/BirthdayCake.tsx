@@ -26,7 +26,7 @@ export default function BirthdayCake() {
           viewport={{ once: true }}
           data-testid="cake-title"
         >
-          Make a Wish! 🎂
+          Biking Permohonan Sayanggg! 🎂
         </motion.h2>
         
         <motion.p 
@@ -36,7 +36,7 @@ export default function BirthdayCake() {
           transition={{ delay: 0.3 }}
           viewport={{ once: true }}
         >
-          Click on the candles to light them and celebrate our special day!
+          Ini lilin sama angkanya diklik syangg biar apinya menyala!
         </motion.p>
         
         <div className="max-w-md mx-auto relative">
@@ -145,7 +145,7 @@ export default function BirthdayCake() {
                 data-testid="celebration-message"
               >
                 <p className="text-xl font-serif text-primary animate-bounce-slow">
-                  🎉 Happy Birthday! All wishes come true! 🎉
+                  🎉 Horeee sudah menyala, semoga doa tadi terkabul syanggg! 🎉
                 </p>
               </motion.div>
             )}

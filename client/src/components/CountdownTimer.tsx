@@ -6,12 +6,14 @@ export default function CountdownTimer() {
     years: 4,
     months: 48,
     days: 1460,
-    hours: 35040
+    hours: 35040,
+    minutes: 2102400,
+    seconds: 126144000
   });
 
   useEffect(() => {
     const updateCountdown = () => {
-      const startDate = new Date('2021-01-01'); // Approximate start date
+      const startDate = new Date('2021-09-18'); // Approximate start date
       const now = new Date();
       const timeDiff = now.getTime() - startDate.getTime();
       
@@ -19,6 +21,8 @@ export default function CountdownTimer() {
       const months = Math.floor(timeDiff / (1000 * 60 * 60 * 24 * 30.44));
       const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
       const hours = Math.floor(timeDiff / (1000 * 60 * 60));
+      const minutes = Math.floor(timeDiff / (1000 * 60));
+      const seconds = Math.floor(timeDiff / 1000);
       
       setTimeData({ years, months, days, hours });
     };
@@ -33,7 +37,9 @@ export default function CountdownTimer() {
     { value: timeData.years, label: "Years" },
     { value: timeData.months, label: "Months" },
     { value: timeData.days.toLocaleString(), label: "Days" },
-    { value: timeData.hours.toLocaleString(), label: "Hours" }
+    { value: timeData.hours.toLocaleString(), label: "Hours" },
+    { value: timeData.minutes.toLocaleString(), label: "Minutes" },
+    { value: timeData.seconds.toLocaleString(), label: "Seconds" }
   ];
 
   return (
