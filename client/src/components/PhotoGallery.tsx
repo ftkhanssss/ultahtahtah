@@ -11,32 +11,32 @@ const photos = [
   {
     src: gbr1,
     alt: "Romantic dinner date",
-    caption: "Our First Date 💕"
+    caption: "Ini di Miksu Tegal 💕"
   },
   {
     src: gbr2,
     alt: "Beach sunset together", 
-    caption: "Beach Getaway 🌅"
+    caption: "Alfamar langganan 🌅"
   },
   {
     src: gbr3,
     alt: "Anniversary celebration",
-    caption: "Anniversary Night ✨"
+    caption: "Habis Menonton pelem ✨"
   },
   {
     src: gbr4,
     alt: "Mountain hiking adventure",
-    caption: "Adventure Together 🏔️"
+    caption: "Ini amu wisuda comel 🏔️"
   },
   {
     src: gbr5,
     alt: "Spring picnic date",
-    caption: "Spring Picnic 🌸"
+    caption: "Kamu kaya penjaat sayangg 🌸"
   },
   {
     src: gbr6,
     alt: "Coffee shop date",
-    caption: "Coffee & Conversations ☕"
+    caption: "Terong ☕"
   }
 ];
 
