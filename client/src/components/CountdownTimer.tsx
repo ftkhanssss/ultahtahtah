@@ -6,9 +6,7 @@ export default function CountdownTimer() {
     years: 4,
     months: 48,
     days: 1460,
-    hours: 35040,
-    minutes: 2102400,
-    seconds: 126144000
+    hours: 35040
   });
 
   useEffect(() => {
@@ -21,8 +19,6 @@ export default function CountdownTimer() {
       const months = Math.floor(timeDiff / (1000 * 60 * 60 * 24 * 30.44));
       const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
       const hours = Math.floor(timeDiff / (1000 * 60 * 60));
-      const minutes = Math.floor(timeDiff / (1000 * 60));
-      const seconds = Math.floor(timeDiff / 1000);
       
       setTimeData({ years, months, days, hours });
     };
@@ -37,9 +33,7 @@ export default function CountdownTimer() {
     { value: timeData.years, label: "Years" },
     { value: timeData.months, label: "Months" },
     { value: timeData.days.toLocaleString(), label: "Days" },
-    { value: timeData.hours.toLocaleString(), label: "Hours" },
-    { value: timeData.minutes.toLocaleString(), label: "Minutes" },
-    { value: timeData.seconds.toLocaleString(), label: "Seconds" }
+    { value: timeData.hours.toLocaleString(), label: "Hours" }
   ];
 
   return (
