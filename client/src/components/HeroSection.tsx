@@ -27,7 +27,7 @@ export default function HeroSection() {
               animate={{ scale: 1 }}
               transition={{ delay: 0.5, type: "spring", stiffness: 260, damping: 20 }}
             >
-              🎉 Happy 22nd Birthday! 🎂
+              🎉 Piiiii 22 sayanggg! 🎂
             </motion.span>
             <motion.span 
               className="block mt-4 text-3xl md:text-5xl animate-pulse-heart"
