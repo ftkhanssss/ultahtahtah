@@ -43,7 +43,7 @@ export default function Timeline() {
           viewport={{ once: true }}
           data-testid="timeline-title"
         >
-          Our Love Timeline
+          Ringkasan 4 Tawun
         </motion.h2>
         
         <div className="max-w-4xl mx-auto">
